@@ -103,7 +103,7 @@ object 借出书籍{
 
 
 
-### 2.2 类的对象图
+### 2.2 类预约书籍的对象图
 
 #### 源码如下：
 
@@ -111,7 +111,7 @@ object 借出书籍{
 
 @startuml
 
-object 借出书籍{
+object 预约书籍{
    BookNo = 123456
    PersonNo = 201510414227
    BookingTime = 2018-4-20
@@ -123,4 +123,4 @@ object 借出书籍{
 
 #### 对象图如下：
 
-![class](borrow1.png)
+![class](lend.png)
