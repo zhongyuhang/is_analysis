@@ -11,27 +11,16 @@
 
 
 |名称|类型|长度|是否允许NULL|键|注释|
-
 |:---:|:---:|:----:|:---:|:---:|:----:|
-
 |id|int|11|否| |图书添加时id（递增）|
-
 |Book_id|int|20|否|主键|入馆图书序号|
-
 |Book_name|varchar|255|否| |图书名称|
-
 |Book_arthur|varchar|255|否| |图书作者|
-
 |ISBN|varchar|255|否| 外键|图书标准书号|
-
 |Book_pub|varchar|255|否| |图书出版社|
-
 |Book_price|int|20|否| |图书单价|
-
 |Book_status|varchar|20|否|  |图书状态|
-
 |Book_dir|varchar|20|否| |图书类型|
-
 
 **1.2 users(借书者表)**
 
