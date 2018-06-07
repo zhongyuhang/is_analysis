@@ -1,0 +1,11 @@
+@startuml
+title 基于GitHub的实验管理平台--修改成绩用例的顺序图
+actor teachers
+database  data
+teachers -> chooseSemester: 选择学期
+chooseSemester ->data:获得数据
+data ->chooseStudents:选择学生
+chooseStudents -> chooseCourse:选择课程
+chooseCourse -> updateGrades:修改成绩
+ updateGrades  -> data:保存数据
+@enduml
