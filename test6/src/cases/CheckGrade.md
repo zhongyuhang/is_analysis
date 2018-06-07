@@ -17,7 +17,7 @@
 ![sequence1](../../CheckGrade.png) 
 
 ## 3. 界面设计
-- 界面参照: https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/checkScore.png
+- 界面参照: https://github.com/zhongyuhang/is_analysis/blob/master/test6/src/ui/checkScore.png
 - API接口调用 
     - 接口1：[getOneStudentResult](../mapper/getOneStudentResult.md) 
 
